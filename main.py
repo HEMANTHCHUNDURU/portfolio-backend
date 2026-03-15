@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from langchain_community.vectorstores import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_openai import OpenAIEmbeddings
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 import os
@@ -10,20 +10,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI()
-
-# Allow frontend domain later (for now allow all during dev)
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for development only
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Load embedding model
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+# Load embedding model — OpenAI (no torch, no download!)
+embedding_model = OpenAIEmbeddings(
+    model="text-embedding-3-small"
 )
 
 # Load vector database
@@ -42,20 +39,18 @@ class Query(BaseModel):
 
 @app.post("/ask")
 async def ask(query: Query):
-
-    # 1️⃣ Retrieve relevant docs
     docs = retriever.invoke(query.question)
     context = "\n\n".join([doc.page_content for doc in docs])
 
-    # 2️⃣ Strict Prompt
     prompt = f"""
-You are Hemanth's AI assistant.
+You are Hemanth's AI assistant on his portfolio website.
 
 Rules:
 - Answer ONLY from the resume context below.
 - If information is not present, say:
   "That information is not available in Hemanth's resume."
 - Keep answers concise and professional.
+- Write in third person about Hemanth.
 
 Resume Context:
 {context}
@@ -64,17 +59,14 @@ Question:
 {query.question}
 """
 
-    # 3️⃣ Call OpenAI (low cost model)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "You answer questions about Hemanth's resume."},
+            {"role": "system", "content": "You answer questions about Hemanth's resume and background."},
             {"role": "user", "content": prompt}
         ],
         temperature=0,
         max_tokens=250
     )
 
-    answer = response.choices[0].message.content
-
-    return {"answer": answer}
+    return {"answer": response.choices[0].message.content}
