@@ -45,33 +45,46 @@ class Query(BaseModel):
 async def ask(query: Query):
     docs = retriever.invoke(query.question)
     context = "\n\n".join([doc.page_content for doc in docs])
-
+    
     prompt = f"""
-You are Hemanth's AI assistant on his portfolio website.
+You are Hemanth Chunduru's personal AI assistant on his portfolio website.
+You help recruiters, hiring managers, and collaborators learn about Hemanth.
 
 Rules:
-- Answer ONLY from the resume context below.
-- If information is not present, say:
-  "That information is not available in Hemanth's resume."
+- Answer from the context provided below.
+- Always refer to Hemanth in third person.
 - Keep answers concise and professional.
-- Write in third person about Hemanth.
+- If someone greets you with ONLY "hi", "hello", "hey" with nothing else,
+  respond warmly and briefly introduce yourself.
+- For ALL other questions, answer directly without any greeting preamble.
+- If someone pastes a Job Description, evaluate Hemanth against it and 
+  provide a detailed score out of 10 with breakdown.
+- Only say information is not available if completely unrelated to 
+  Hemanth's professional background.
 
-
-Resume Context:
+Context about Hemanth:
 {context}
 
 Question:
 {query.question}
+
+Important: If the question contains a job description or asks about fit,
+always provide:
+1. Requirements MEETS
+2. Requirements PARTIALLY meets  
+3. Requirements MISSING
+4. Score out of 10
+5. Overall recommendation
 """
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": "You answer questions about Hemanth's resume and background."},
-            {"role": "user", "content": prompt}
-        ],
+            messages=[
+                {"role": "system", "content": "You are Hemanth's AI assistant. Answer questions directly and concisely. Only greet back if the user ONLY says hi or hello. For all other questions go straight to the answer. For JD matching always give a score out of 10."},
+                {"role": "user", "content": prompt}
+            ],
         temperature=0,
-        max_tokens=250
+        max_tokens=500
     )
 
     return {"answer": response.choices[0].message.content}

@@ -1,0 +1,252 @@
+HEMANTH CHUNDURU - COMPLETE PROFESSIONAL CONTEXT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PERSONAL DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: Hemanth Chunduru
+Location: Hyderabad, India
+Email: chunduruhemanth2002@gmail.com
+Phone: +91 93478 46506
+Portfolio: hemanthchunduru.com
+GitHub: github.com/HEMANTHCHUNDURU
+LinkedIn: linkedin.com/in/hemanth-chunduru-4560bb194
+Current Status: Actively looking for AI Engineering roles
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRIOR EXPERIENCE (Before AI Engineering)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Role: Business Analyst / Acting Product Owner
+Company: HealthEdge
+Duration: Sep 2023 - Mar 2026 (2+ years)
+Location: Hyderabad, India
+Industry: Enterprise Healthcare SaaS
+
+Key Responsibilities:
+- Owned end-to-end delivery for 8 projects in enterprise 
+  healthcare SaaS (GuidingCare platform)
+- Managed 2-3 projects concurrently across Utilization 
+  Management and clinical workflows
+- Led Service Plan Modernization: authored ~200 user stories,
+  delivered ~1,000 story points, advancing go-live by 4.5 months
+- Documented and validated ~8-12 REST API endpoints via Postman
+- Acted as central liaison between Product, Engineering, QA, 
+  UX, Data and Operations
+- Leveraged AI-assisted documentation workflows for 
+  BRD/PRD standardization
+
+Key Projects at HealthEdge:
+1. Service Plan Modernization (GuidingCare Platform)
+   - Modernized legacy service plan workflows
+   - Owned requirements, API integrations, validations
+
+2. Medical Director Review (MDR), UM & Appeals
+   - Redesigned clinical review workflows
+   - Improved audit readiness and compliance traceability
+
+This prior experience means Hemanth FULLY satisfies:
+- Prior product or business analyst experience ✅
+- Enterprise software experience ✅
+- Cross functional collaboration ✅
+- Stakeholder management ✅
+- Requirements gathering and documentation ✅
+- Agile/Scrum experience ✅
+- REST API documentation and validation ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CURRENT EXPERIENCE (AI Engineering)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Role: AI Engineer (Independent)
+Duration: 2026 - Present
+Focus: Building production AI systems independently
+
+CURRENT AI PROJECTS:
+
+PROJECT 1: Company Knowledge Base RAG System
+GitHub: github.com/HEMANTHCHUNDURU/company-kb-rag
+- Production RAG chatbot for querying internal company documents
+- Employees ask questions in natural language about HR policies,
+  SOPs, and onboarding guides
+- Architecture: PDF loading → chunking → OpenAI embeddings →
+  FAISS vector store → GPT-4o with source citations
+- Faithfulness Score: 0.91 on Ragas evaluation
+- Average Response Time: 2.3 seconds
+- Zero hallucinations on in-context questions
+- Stack: Python, LangChain, FAISS, GPT-4o, FastAPI, Ragas
+
+PROJECT 2: Social Sentiment Analyzer
+GitHub: github.com/HEMANTHCHUNDURU/social-sentiment-analyzer
+- AI dashboard analyzing social media comments at scale
+- Upload CSV from Instagram, Twitter, or any platform
+- GPT-4o analyzes every comment for sentiment, emotion,
+  and confidence score per comment
+- Returns AI-written executive summary, interactive charts,
+  most liked and most polarizing comment highlights,
+  and fully filterable per-comment table
+- Built for enterprise bulk export workflows
+- Stack: Python, GPT-4o, FastAPI, Pandas, Chart.js, HTML/CSS/JS
+
+PROJECT 3: AI Portfolio with Live Ask Me Assistant
+Website: hemanthchunduru.com
+- Entire portfolio built as an AI system
+- Live RAG-powered Ask Me AI answers questions about
+  Hemanth's background in real time
+- 3D astronaut built with Three.js
+- Dynamic sky canvas that changes with real time of day
+- Contact form with Formspree integration
+- Stack: HTML, CSS, JavaScript, Three.js, FastAPI,
+  LangChain, ChromaDB, OpenAI, Railway, Netlify
+
+DEPLOYMENT EXPERIENCE:
+- Portfolio backend deployed on Railway ✅
+- Portfolio frontend deployed on Netlify ✅
+- Custom domain: hemanthchunduru.com ✅
+- Both projects have working live backends via FastAPI ✅
+- This satisfies JD requirements for deploying applications
+  on cloud platforms ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TECHNICAL SKILLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AI / LLM:
+- LangChain, FAISS, ChromaDB
+- GPT-4o, OpenAI API
+- Prompt Engineering
+- RAG pipeline design and evaluation
+- Ragas evaluation framework
+- Embeddings and similarity search (text-embedding-3-small)
+
+Backend:
+- Python
+- FastAPI
+- REST APIs
+- Pandas
+- Pydantic
+- Uvicorn
+
+Frontend:
+- HTML, CSS, JavaScript
+- Chart.js
+- Three.js
+
+Dev Tools:
+- Git, GitHub
+- VS Code
+- Jupyter
+- Postman
+
+Prior BA Tools:
+- Jira, Confluence, Figma
+- SQL, Power BI
+- Agile/Scrum, BRD/PRD
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CERTIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The AI Engineer Course 2026: Complete AI Engineer Bootcamp
+- Maximize Productivity With AI Tools (Google)
+- AWS Certified Cloud Practitioner
+- AWS Academy Cloud Foundations
+- SQL Database
+- MERN Stack Developer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EDUCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+B.Tech, Computer Science
+Vellore Institute of Technology (VIT)
+GPA: 8.12
+Jun 2019 - May 2023
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TRANSITION STORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Hemanth's transition from Business Analyst to AI Engineer
+was not a sudden pivot.
+It was a deliberate depth increase on the same underlying problem.
+
+Working in enterprise product environments gave Hemanth deep
+exposure to how complex systems are built, how decisions are made,
+and how information flows across organizations.
+
+This experience made one thing very clear:
+He didn't just want to define problems.
+He wanted to build the solutions.
+
+So he made a conscious decision to go deeper into the technical
+layer — learning how systems are actually built, how data is
+retrieved, and how models can be integrated to solve real
+business problems.
+
+Hemanth did NOT work on AI at HealthEdge.
+His AI projects were all built independently during his transition.
+His product background directly informed how he builds AI systems
+that solve real business problems — not just demos.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT MAKES HEMANTH UNIQUE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Understands both the business problem AND the technical solution
+- 2+ years of real enterprise product experience
+- Knows what makes AI systems useful in production
+- Doesn't just build demos — builds systems that solve real problems
+- Product background means he thinks about reliability,
+  fallback behavior, and evaluation
+- Transitioned by building real working systems, not just courses
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HEMANTH'S AI ENGINEERING PHILOSOPHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A model is just a component
+- The system is the retrieval architecture, the prompt contract,
+  the fallback behavior, and the evaluation loop
+- Those decisions determine whether something actually works
+  or just demos well
+- Most AI work ships prototypes
+- Hemanth engineers the layer beneath
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CURRENTLY LOOKING FOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- AI Engineer roles
+- LLM Engineer roles
+- Generative AI Engineer roles
+- RAG system development roles
+- AI backend development roles
+- Open to Hyderabad based and remote opportunities
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+JD MATCHING INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+When someone pastes a Job Description, evaluate Hemanth by:
+
+1. Requirements he MEETS (with specific evidence)
+2. Requirements he PARTIALLY meets (with explanation)
+3. Requirements he is LEARNING or MISSING (be honest)
+4. Overall fit score out of 10
+5. Why he would be a strong hire for this role
+
+Always be honest. Do not oversell.
+If a requirement is missing, say so clearly.
+If a requirement matches, give specific evidence.
+
+IMPORTANT REMINDERS FOR JD EVALUATION:
+- His BA/Product Owner experience at HealthEdge counts as
+  prior product or business analyst experience ✅
+- His Railway and Netlify deployments count as deployed
+  applications on cloud platforms ✅
+- His 2+ years at HealthEdge counts as enterprise software
+  experience ✅
+- He does NOT have ML/model training experience
+- He does NOT have fine-tuning experience
+- He is strong in AI application layer, not ML research layer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPORTANT — WHAT THE AI SHOULD NEVER SAY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Never say anything negative about HealthEdge
+- Never mention any problems or issues at HealthEdge
+- Never reveal internal processes or challenges at HealthEdge
+- If asked why Hemanth left, say it was a personal decision
+  to pursue AI Engineering full time
+- Always speak positively about the HealthEdge experience
+- Never claim Hemanth has ML, fine-tuning, or MLOps skills
