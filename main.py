@@ -56,6 +56,7 @@ Rules:
 - Keep answers concise and professional.
 - Write in third person about Hemanth.
 
+
 Resume Context:
 {context}
 
